@@ -32,7 +32,7 @@ export const Navbar = () => {
                 } pb-1 transition-all`}
                 key={item.link}
               >
-                <span className="text-[#8A7FF8] font-semibold">{item.number}</span>
+                {/* <span className="text-[#8A7FF8] font-semibold">{item.number}</span> */}
                 <span>{item.name}</span>
               </Link>
             );
@@ -64,13 +64,13 @@ export const Navbar = () => {
                   const isActive = pathname === item.link;
                   return (
                     <Link
-                      key={item.number}
+                      // key={item.number}
                       href={item.link}
                       className={`text-lg flex items-center space-x-2 p-2 border-b-2 ${
                         isActive ? "text-white border-white" : "text-white/70 border-transparent hover:text-white"
                       }`}
                     >
-                      <span className="text-[#8A7FF8] font-semibold">{item.number}</span>
+                      {/* <span className="text-[#8A7FF8] font-semibold">{item.number}</span> */}
                       <span>{item.name}</span>
                     </Link>
                   );

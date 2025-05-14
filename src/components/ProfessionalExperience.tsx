@@ -14,7 +14,7 @@ const ProfessionalExperience = () => {
   useGSAP(() => {
     // Loop through each timeline card and animate them in
     // as the user scrolls to each card
-    gsap.utils.toArray(".timeline-card").forEach((card) => {
+    gsap.utils.toArray<HTMLElement>(".timeline-card").forEach((card) => {
       // Animate the card coming in from the left
       // and fade in
       gsap.from(card, {
@@ -66,7 +66,7 @@ const ProfessionalExperience = () => {
 
     // Loop through each expText element and animate them in
     // as the user scrolls to each text element
-    gsap.utils.toArray(".expText").forEach((text) => {
+    gsap.utils.toArray<HTMLElement>(".expText").forEach((text) => {
       // Animate the text opacity from 0 to 1
       // and move it from the left to its final position
       // over 1 second with a power2 ease-in-out curve
@@ -103,10 +103,10 @@ const ProfessionalExperience = () => {
         />
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
-            {expCards.map((card) => (
+            {expCards.map((card,index) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
-                  <GlowCard card={card}>
+                  <GlowCard card={card} index={index}>
                     <div>
                       <img src={card.imgPath} alt="exp-img" />
                     </div>
