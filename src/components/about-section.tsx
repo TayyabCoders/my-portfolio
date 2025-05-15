@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "./ui/Button";
-import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { experiences, skillGroups } from "@/lib/constants";

@@ -26,37 +26,38 @@ import {
   SiFramer,
   SiAuth0,
   SiContentful,
-  SiLinktree,
-  SiGraphql,
-  SiEsotericsoftware,
 } from "react-icons/si";
 import Image from "next/image";
 import { BiLogoFirebase } from "react-icons/bi";
 
 export const navLinks = [
-    {
-      // id: 1,
-      name: "Home",
-      link: `/`,
-    },
-    {
-      // id: 2,
-      name: "About",
-      link: `/about`,
-    },
-    {
-      name: "Services",
-      link: `/services`,
-    },
-    {
-      name: "Work",
-      link: `/my-work`,
-    },
-    {
-      name: "Testimonials",
-      link: `/testimonials`,
-    },
-  ];
+  {
+    id: 1, // <-- Added back the unique ID
+    name: "Home",
+    link: `/`,
+  },
+  {
+    id: 2,
+    name: "About",
+    link: `/about`,
+  },
+  {
+    id: 3,
+    name: "Services",
+    link: `/services`,
+  },
+  {
+    id: 4,
+    name: "Work",
+    link: `/my-work`,
+  },
+  {
+    id: 5,
+    name: "Testimonials",
+    link: `/testimonials`,
+  },
+];
+
 
   export const socialMedia = [
     {
