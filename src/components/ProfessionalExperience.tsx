@@ -7,7 +7,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { expCards } from "@/data";
 import TitleHeader from "./ui/TitleHeader";
 import GlowCard from "./ui/GlowCard";
-import Image from 'next/image';
 
 gsap.registerPlugin(ScrollTrigger);
 
