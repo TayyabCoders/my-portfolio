@@ -63,14 +63,16 @@ export const navLinks = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/TayyabCoders"
     },
+    // {
+    //   id: 2,
+    //   img: "/twit.svg",
+    // },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/tayyab-faisal-b668992a9/"
     },
   ];
 
@@ -346,8 +348,8 @@ export const navLinks = [
   ];
 
   export const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
+    { value: 2, suffix: "+", label: "Years of Experience" },
+    { value: 10, suffix: "+", label: "Satisfied Clients" },
+    { value: 15, suffix: "+", label: "Completed Projects" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
   ];

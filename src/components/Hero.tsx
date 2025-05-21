@@ -57,12 +57,12 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Tayyab Faisal, a passionate software developer and machine learning enthusiast specializing in generative AI.
+            Hi! I&apos;m Tayyab Faisal, a passionate Full-Stack Developer and AI Engineer with enthusiasm for cutting-edge technology.
           </p>
 
           <a href="#about">
             <MagicButton
-              title="Download CV"
+              title="Hire Me"
               icon={<FaLocationArrow />}
               position="right"
             />

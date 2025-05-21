@@ -30,7 +30,7 @@ export const AboutSection = () => {
             </p>
             <p className="space-y-4">
               <span className="block">
-                Hi, my name is Abdul Rehman, and I’m a 19-year-old Full Stack
+                Hi, my name is Tayyab Faisal, and I’m a Full Stack
                 Developer passionate about building dynamic, responsive,
                 scalable web applications. My journey in software development
                 started with a curiosity about how modern apps are built, and
@@ -57,11 +57,10 @@ export const AboutSection = () => {
               </span>
             </p>
             <div>
-              <li>JavaScript & TypeScript (ES6+)</li>
+              <li>JavaScript & TypeScript</li>
               <li>React.js / Next.js</li>
-              <li>PostgreSQL & Prisma</li>
-              <li>Backend with Next.js</li>
-              <li>Fast API and SQL Model</li>
+              <li>SQL & NoSQL</li>
+              <li>Backend with Django / Next.js</li>
             </div>
             <p>
               I’m dedicated to continuous learning and always strive to stay

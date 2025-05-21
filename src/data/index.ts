@@ -32,8 +32,8 @@ export const workExperience = [
   export const expCards = [
     {
       review: "Tayyab's expertise in building scalable web applications has transformed our development process. His skills in both frontend and backend architecture were instrumental in delivering robust solutions.",
-      imgPath: "/exp1.png",
-      logoPath: "/logo1.png",
+      imgPath: "/fullstack.png",
+      logoPath: "/fullstack.png",
       title: "Full Stack Developer",
       date: "Oct 2021 - Present",
       responsibilities: [
@@ -43,10 +43,10 @@ export const workExperience = [
       ]
     },
     {
-      review: "Tayyab’s contributions in Machine Learning have been groundbreaking. His ability to build and deploy ML models has driven efficiency and intelligence in our systems.",
-      imgPath: "/exp2.png",
-      logoPath: "/logo2.png",
-      title: "Machine Learning Engineer & Generative AI",
+      review: "Tayyab has made significant contributions in the fields of Machine Learning and Generative AI. His expertise in developing and deploying intelligent models has enhanced system performance, enabling smarter and more efficient solutions.",
+      imgPath: "/genai.png",
+      logoPath: "/genai.png",
+      title: "Machine Learning & Generative AI",
       date: "March 2024 - Present",
       responsibilities: [
         "Designed and implemented machine learning models for predictive analytics and data-driven decision-making.",
@@ -56,8 +56,8 @@ export const workExperience = [
     },
     {
       review: "Tayyab is currently exploring the rapidly evolving field of Agentic AI. His proactive learning and hands-on experimentation are setting the stage for impactful developments in autonomous AI agents.",
-      imgPath: "/exp3.png",
-      logoPath: "/logo3.png",
+      imgPath: "/agentic_ai.jpg",
+      logoPath: "/agentic_ai.jpg",
       title: "Agentic AI Enthusiast",
       date: "May 2025 - Present",
       responsibilities: [

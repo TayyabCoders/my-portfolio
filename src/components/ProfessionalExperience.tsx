@@ -109,12 +109,7 @@ const ProfessionalExperience = () => {
                 <div className="xl:w-2/6">
                   <GlowCard card={card} index={index}>
                     <div>
-                    <Image 
-                        src={card.imgPath} 
-                        alt="exp-img" 
-                        fill
-                        className="object-cover"
-                      />
+                      <img src={card.imgPath} alt="exp-img" />
                     </div>
                   </GlowCard>
                 </div>
@@ -126,12 +121,7 @@ const ProfessionalExperience = () => {
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
-                      <Image 
-                            src={card.logoPath} 
-                            alt="logo" 
-                            fill
-                            className="object-cover"
-                          />
+                      <img src={card.logoPath} alt="logo" />
                       </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
